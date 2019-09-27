@@ -1,5 +1,6 @@
 import { expect } from "chai";
 import { createReadStream } from "fs";
+// @ts-ignore
 import * as RingCentral from "ringcentral";
 import Client from "../src/Client";
 import testConfig from "./config";

@@ -15,7 +15,7 @@ export default class Fax extends FaxBase {
      */
     post(body: PostBody, attachments: Binary[]): Promise<MessageInfo> {
         const meta = JSON.stringify(body);
-        const form = new FormData();
+        const form = new FormData.default();
         const jsonType = "application/json";
         if (inNode()) {
             form.append("json", meta, { contentType: jsonType, filename: "request.json" });

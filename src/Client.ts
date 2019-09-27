@@ -1,3 +1,4 @@
+// @ts-ignore
 import * as Ringcentral from "ringcentral";
 import { parse as parseUrl } from "url";
 import Account from "./paths/Account";

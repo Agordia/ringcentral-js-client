@@ -1,4 +1,5 @@
 import { expect } from "chai";
+// @ts-ignore
 import * as RingCentral from "ringcentral";
 import testConfig from "./config";
 import Client from "../src/Client";
